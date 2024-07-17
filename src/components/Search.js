@@ -17,10 +17,10 @@ export default function Search() {
 
 const styles = StyleSheet.create({
   container: {
-      flex: 1,
-      backgroundColor: '#888',
-      alignItems: 'center',
-      justifyContent: 'center',
+    flex: 1,
+    backgroundColor: '#888',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   input: {
     width: '95%',
