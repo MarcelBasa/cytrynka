@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ogorki gruntowe",
+      "img": "url",
+      "price": "10zł/kg",
+      "description": "pyszne ogorki"
+    },
+    {
+      "id": 2,
+      "name": "pomidor",
+      "img": "url",
+      "price": "8zł/kg",
+      "description": "świeże pomidory"
+    },
+    {
+      "id": 3,
+      "name": "marchew",
+      "img": "url",
+      "price": "5zł/kg",
+      "description": "chrupiąca marchew"
+    },
+    {
+      "id": 4,
+      "name": "marchew",
+      "img": "url",
+      "price": "5zł/kg",
+      "description": "chrupiąca marchew"
+    },
+    {
+      "id": 5,
+      "name": "marchew",
+      "img": "url",
+      "price": "5zł/kg",
+      "description": "chrupiąca marchew"
+    },
+    {
+      "id": 6,
+      "name": "marchew",
+      "img": "url",
+      "price": "5zł/kg",
+      "description": "chrupiąca marchew"
+    },
+    {
+      "id": 7,
+      "name": "marchew",
+      "img": "url",
+      "price": "5zł/kg",
+      "description": "chrupiąca marchew"
+    }
+  ]
+}

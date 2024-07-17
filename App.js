@@ -1,20 +1,51 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { StatusBar, View, StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import Search from './src/components/Search';
+import Offers from './src/components/Offers';
+import SpecialOffer from './src/screens/SpecialOffer';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <StatusBar hidden={true} />
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={MainScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="SpecialOffer" component={SpecialOffer} options={{ headerShown: true }} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
+
+const MainScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.searchContainer}>
+        <Search />
+      </View>
+      <View style={styles.offersContainer}>
+        <Offers navigation={navigation} />
+      </View>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexDirection: 'column',
+    width: '100%',
+  },
+  searchContainer: {
+    flex: 1,
+    width: '100%',
+  },
+  offersContainer: {
+    flex: 3,
+    width: '100%',
   },
 });
