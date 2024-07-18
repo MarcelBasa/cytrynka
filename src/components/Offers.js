@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Button, FlatList } from 'react-native';
+import { StyleSheet, Text, View, Button, FlatList, Image } from 'react-native';
 
 import productsData from '../data/products.json';
 
@@ -15,7 +15,13 @@ export default function Offers({ navigation }) {
   };
 
   const renderItem = ({ item }) => (
+    
+
     <View style={styles.item}>
+      <Image
+        style={styles.image}
+        source={{ uri: item.img }}
+      />
       <Text>{item.name}</Text>
       <Text>{item.price}</Text>
       <Button
@@ -55,5 +61,10 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#ccc',
     alignItems: 'center',
-  }
+  },
+  image: {
+    width: 200,
+    height: 200,
+    resizeMode: 'contain',
+  },
 });

@@ -3,49 +3,49 @@
     {
       "id": 1,
       "name": "Ogórki gruntowe",
-      "img": "https://example.com/ogorki.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "10zł/kg",
       "description": "Pyszne ogórki gruntowe, idealne do kiszenia."
     },
     {
       "id": 2,
       "name": "Pomidor",
-      "img": "https://example.com/pomidor.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "8zł/kg",
       "description": "Świeże pomidory, doskonałe do sałatek."
     },
     {
       "id": 3,
       "name": "Marchew",
-      "img": "https://example.com/marchew1.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "5zł/kg",
       "description": "Chrupiąca marchew, bogata w witaminy."
     },
     {
       "id": 4,
       "name": "Cebula",
-      "img": "https://example.com/cebula.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "6zł/kg",
       "description": "Świeża cebula, doskonała do przyprawiania potraw."
     },
     {
       "id": 5,
       "name": "Ziemniaki",
-      "img": "https://example.com/ziemniaki.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "4zł/kg",
       "description": "Ziemniaki, idealne do gotowania i pieczenia."
     },
     {
       "id": 6,
       "name": "Papryka",
-      "img": "https://example.com/papryka.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "12zł/kg",
       "description": "Kolorowa papryka, świetna do grillowania."
     },
     {
       "id": 7,
       "name": "Sałata",
-      "img": "https://example.com/salata.jpg",
+      "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "7zł/kg",
       "description": "Świeża sałata, idealna do sałatek."
     }
