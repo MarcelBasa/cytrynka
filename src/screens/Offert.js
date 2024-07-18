@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-import OffersForYou from '../components/OffersForYou';
+import OffersForYou from '../components/OffertsForYou';
 import NearShop from '../components/NearShop';
 
-export default function SpecialOffer({ route, navigation }) {
+export default function Offert({ route, navigation }) {
   const { product } = route.params;
 
 
@@ -15,9 +15,9 @@ export default function SpecialOffer({ route, navigation }) {
             style={styles.image}
             source={{ uri: product.img }}
           />
-          <Text>Product Name: {product.name}</Text>
-          <Text>Price: {product.price}</Text>
-          <Text>Description: {product.description}</Text>
+          <Text>{product.name}</Text>
+          <Text>{product.price}</Text>
+          <Text>{product.description}</Text>
         </View>
         <NearShop />
         <OffersForYou  navigation={navigation} />

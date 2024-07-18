@@ -11,7 +11,7 @@ export default function Offers({ navigation }) {
   }, []);
 
   const handleChooseOffer = (product) => {
-    navigation.navigate('SpecialOffer', { product });
+    navigation.navigate('Offert', { product });
   };
 
   const renderItem = ({ item }) => (

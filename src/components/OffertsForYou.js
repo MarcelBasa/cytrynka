@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-import Offers from './Offers';
+import Offers from './Offerts';
 
 export default function OffersForYou( {navigation} ){
     return (

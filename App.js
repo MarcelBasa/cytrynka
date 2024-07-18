@@ -4,8 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Search from './src/components/Search';
-import Offers from './src/components/Offers';
-import SpecialOffer from './src/screens/SpecialOffer';
+import Offers from './src/components/Offerts';
+import Offert from './src/screens/Offert';
 
 const Stack = createStackNavigator();
 
@@ -15,7 +15,7 @@ export default function App() {
       <StatusBar hidden={true} />
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={MainScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="SpecialOffer" component={SpecialOffer} options={{ headerShown: true }} />
+        <Stack.Screen name="Offert" component={Offert} options={{ headerShown: true }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
