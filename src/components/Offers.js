@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Button, FlatList } from 'react-native';
+
 import productsData from '../data/products.json';
 
 export default function Offers({ navigation }) {
