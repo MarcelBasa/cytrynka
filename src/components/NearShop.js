@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Button, Linking } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Linking, Text } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 export default function NearShop(){
     
@@ -13,11 +14,38 @@ export default function NearShop(){
   }
 
     return (
-        <View>
-            <Button 
-                title='Najbliższy sklep'
-                onPress={openGoogleMaps}
-            />
+        <View style={styles.container}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={openGoogleMaps}
+            >
+              <Text style={styles.buttonText}>
+                <Icon name="location" size={20} color="#fff"/> Najbliższy sklep
+              </Text>
+            </TouchableOpacity>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#fff',
+    textAlign: 'center',
+    width: '100%',
+  },
+  button:{
+    marginLeft: 70,
+    marginRight: 70,
+    height: 45,
+    backgroundColor: '#319C0C',
+    borderRadius: 6,
+    justifyContent: 'center',
+  },
+  buttonText:{
+    textAlign: 'center',
+    justifyContent: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#fff',
+  }
+});
