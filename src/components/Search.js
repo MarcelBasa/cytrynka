@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default function Search() {
@@ -8,9 +8,14 @@ export default function Search() {
     <View style={styles.container}>
       <Text style={styles.text1}>Oferty</Text>
       <Text style={styles.text2}>Oferty specjalnie dla ciebie</Text>
-      <View style={styles.input}>
-        <Icon name="search" size={30} color="#000"/>
-        <TextInput style={{fontSize: 20, paddingLeft: 5,}} placeholder=" Szukaj" />
+      <View style={styles.inputs}>
+        <View style={styles.textInput}>
+          <Icon style={{paddingTop: 8}} name="search" size={30} color="#000"/>
+          <TextInput style={{fontSize: 25, paddingLeft: 5,}} placeholder=" Szukaj" />
+        </View>
+        <TouchableOpacity style={styles.button}>
+          <Icon style={styles.buttonText} name="options-outline" size={40} color="#fff"/>
+        </TouchableOpacity>
       </View>
     </View>
   );
@@ -22,16 +27,14 @@ const styles = StyleSheet.create({
     alignItems: 'left',
     justifyContent: 'center',
   },
-  input: {
+  textInput: {
+    flex: 1,
     flexDirection: 'row',
-    width: '95%',
     backgroundColor: 'white',
     padding: 15,
     paddingTop: 10,
     paddingBottom: 10,
-    marginTop: 30,
-    marginBottom: 30,
-    borderRadius: 12,
+    borderRadius: 25,
     shadowColor: "#000",
     shadowOffset: {
         width: 0,
@@ -41,7 +44,9 @@ const styles = StyleSheet.create({
     shadowRadius: 2.62,
     elevation: 4,
     color: 'black',
-    fontSize: 20
+    fontSize: 20,   
+    flexBasis: '60%',
+    height: 70,
   },
   text1:{
     color: 'gray',
@@ -50,5 +55,23 @@ const styles = StyleSheet.create({
   text2:{
     fontWeight: 'bold',
     fontSize: 22,
+  },
+  button:{
+    flex: 1,
+    height: 70,
+    backgroundColor: '#319C0C',
+    borderRadius: 25,
+    justifyContent: 'center',
+  },
+  buttonText:{
+    textAlign: 'center',
+  },
+  inputs:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    width: '100%',
+    gap: 15,
+    marginTop: 30,
   }
 });

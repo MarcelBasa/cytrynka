@@ -5,49 +5,63 @@
       "name": "Ogórki gruntowe",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "10zł/kg",
-      "description": "Pyszne ogórki gruntowe"
+      "description": "Pyszne ogórki gruntowe",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     },
     {
       "id": 2,
       "name": "Pomidor",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "8zł/kg",
-      "description": "Świeże pomidory"
+      "description": "Świeże pomidory",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     },
     {
       "id": 3,
       "name": "Marchew",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "5zł/kg",
-      "description": "Chrupiąca marchew"
+      "description": "Chrupiąca marchew",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     },
     {
       "id": 4,
       "name": "Cebula",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "6zł/kg",
-      "description": "Świeża cebula"
+      "description": "Świeża cebula",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     },
     {
       "id": 5,
       "name": "Ziemniaki",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "4zł/kg",
-      "description": "Ziemniaki młode"
+      "description": "Ziemniaki młode",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     },
     {
       "id": 6,
       "name": "Papryka",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "12zł/kg",
-      "description": "Kolorowa papryka"
+      "description": "Kolorowa papryka",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     },
     {
       "id": 7,
       "name": "Sałata",
       "img": "https://www.lokalnywarzywniak.pl/799-large_default/ogorek-gruntowy-kolka.jpg",
       "price": "7zł/kg",
-      "description": "Świeża sałata"
+      "description": "Świeża sałata",
+      "title": "Title",
+      "text": "f sda fsa asd fds fsdf asf sad fasd fs fasd fsad sd fas fas f sf gasd g haerh ae dfg a gadg da ga"
     }
   ]
 }

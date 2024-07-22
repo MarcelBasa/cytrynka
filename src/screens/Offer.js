@@ -32,9 +32,11 @@ export default function Offer({ route }) {
         </View>
         <View style={styles.input}>
           <Text style={styles.title}>
-            Title
+            {product.title}
           </Text>
-          <Text style={{color: 'gray'}}>gdas gasd gsaga sgsags sda gsd g sadasd gsaga sgsags sda gsd g sadasd gsaga sgsags sda gsd g sad gsa</Text>
+          <Text style={{color: 'gray'}}>
+            {product.text}
+          </Text>
         </View>
       </View>
       <NearShop />

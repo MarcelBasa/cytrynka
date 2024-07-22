@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Button, FlatList, Image, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import productsData from '../data/products.json';
 import Search from '../components/Search';
@@ -62,10 +63,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    padding: 10,
   },
   searchContainer: {
     flex: 1,
+    margin: 10,
+    paddingBottom: 10,
   },
   offersContainer: {
     flex: 3,
